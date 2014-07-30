@@ -1,6 +1,11 @@
-html,p,h1,h2,h3,h4,h5,h6,a,input {
-	font-family: "Helvetica Neue",'Hiragino Kaku Gothic ProN',"Hiragino Sans GB","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;
+p,h1,h2,h3,h4,h5,h6,a,input {
+	font-family: "Helvetica Neue",'Noto Serif','Noto Sans T Chinese','Noto Sans S Chinese','Hiragino Kaku Gothic ProN',"Hiragino Sans GB","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;
 	-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: sans-serif;
+	src: local("Helvetica");
 }
 
 @font-face {
@@ -64,3 +69,7 @@ html,p,h1,h2,h3,h4,h5,h6,a,input {
 	src: local("Helvetica Neue");
 }
 
+@font-face {
+	font-family: '微軟正黑體';
+	src: local("蘋果儷細宋");
+}
