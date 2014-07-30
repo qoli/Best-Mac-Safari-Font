@@ -15,7 +15,7 @@ p,h1,h2,h3,h4,h5,h6,a,input {
 
 @font-face {
 	font-family: 'Verdana';
-	src: local("Hiragino Sans GB");
+	src: local("Noto Sans T Chinese");
 }
 
 @font-face {
