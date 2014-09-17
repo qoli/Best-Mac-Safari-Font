@@ -17,3 +17,7 @@ Tips
 Download
 ===
 * Noto Sans 下載：https://www.google.com/get/noto/
+
+Update
+===
+* 修正了淘寶的問題
