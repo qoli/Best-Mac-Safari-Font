@@ -1,6 +1,14 @@
 p,h1,h2,h3,h4,h5,h6,a,input {
-	font-family: "Helvetica Neue",'Noto Serif','Noto Sans T Chinese','Noto Sans S Chinese','Hiragino Kaku Gothic ProN',"Hiragino Sans GB","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;
-	-webkit-font-smoothing: antialiased;
+	/*font-family: MHei,"Helvetica Neue",'Noto Serif','Noto Sans T Chinese','Noto Sans S Chinese','Hiragino Kaku Gothic ProN',"Hiragino Sans GB","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;*/
+	font-family: MHei, 'Helvetica Neue', Helvetica,'Noto Serif','Noto Sans T Chinese','Noto Sans S Chinese', Arial, Verdana, sans-serif !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-rendering: optimizelegibility !important;
+	/*color: rgb(51, 51, 51);*/
+}
+
+/* Fixs */
+.tb-iconfont {
+	font-family: tb-iconfont !important;
 }
 
 @font-face {
