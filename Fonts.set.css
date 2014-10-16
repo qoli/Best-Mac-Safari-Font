@@ -11,6 +11,10 @@ p,h1,h2,h3,h4,h5,h6,a,input {
 	font-family: tb-iconfont !important;
 }
 
+.W_ficon {
+	font-family: "wbficonregular" !important;
+}
+
 @font-face {
 	font-family: sans-serif;
 	src: local("Helvetica");
