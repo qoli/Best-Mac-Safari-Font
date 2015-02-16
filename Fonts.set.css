@@ -1,9 +1,10 @@
-p,h1,h2,h3,h4,h5,h6,a,input {
-	/*font-family: MHei,"Helvetica Neue",'Noto Serif','Noto Sans T Chinese','Noto Sans S Chinese','Hiragino Kaku Gothic ProN',"Hiragino Sans GB","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;*/
-	font-family: MHei, 'Helvetica Neue', Helvetica,'Noto Serif','Noto Sans T Chinese','Noto Sans S Chinese', Arial, Verdana, sans-serif !important;
+p,h1,h2,h3,h4,h5,h6,a,input,label {
+	font-family: 'Noto Sans T Chinese','Noto Sans S Chinese','Helvetica Neue', Helvetica, 'Noto Serif', Arial, Verdana, sans-serif !important;
 	-webkit-font-smoothing: antialiased !important;
 	text-rendering: optimizelegibility !important;
-	/*color: rgb(51, 51, 51);*/
+	-ms-text-size-adjust:100% !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	-webkit-font-smoothing: grayscale !important;
 }
 
 /* Fixs */
@@ -11,9 +12,25 @@ p,h1,h2,h3,h4,h5,h6,a,input {
 	font-family: tb-iconfont !important;
 }
 
+.sea-iconfont {
+	font-family: detail-icons !important;
+}
+
 .W_ficon {
 	font-family: "wbficonregular" !important;
 }
+
+/* taobao.com */dl > dt > span.lala,.iconfont > em,p.font-face,a.new-todo-item,a.setting-item,a.calender-book-item,span.prev-btn,span.next-btn{font-family: "shop-iconfont","global-iconfont","mticonfont","marketicon"  !important;}
+/* itercast.com */span.fui-logo-text{font-family: "IterCast-Icon"  !important;}
+/* github.com */span.diffstat-bar,span.diff-added{font-family: "octicons"  !important;}
+/* html5test.com */.pointsPanel h2 > span, .pointsPanel h2 > strong,#indexbutton,#loading > div{font-family: "League Gothic","html5test"  !important;}
+/* 2345.com *//* L */.these_col_1 > .tool_ul > li > a > ins,DIV.module_t > span > a > ins,DIV.module_t > a > ins,.category_in > div.panel:nth-child(n) > p > ins > a,#rightToolBox > dd > ins > a,.cnxh_hd > #J_gul_cata > a > ins{font-family: "2345"  !important;}
+/* 2345.com *//* D */#content > #left > .kzjx h2 a{margin: 0px 7.5px  !important;}
+/* sports.163.com/nba *//* CD */span.nba_matchnav_score,.pbody{font-family: "System","SimSun"  !important;margin: 1px auto  !important;}
+/* w3cplus.com */#go_top{font-family: "w3cplus"  !important;}
+/* designgala.com */DIV.textwidget > .social > li > a{font-family: "JustVectorRegular"  !important;}
+/* etao.com */.s-btn-container > input{font-family: "globalheader"  !important;}
+/* alimama.com */a.data-send,i.current,.item-second > i,span.dialog-ext-close-x,#mxevt-0 > i,#mxevt-1 > i,.item-first > i{font-family: "uxiconfont"  !important;}
 
 @font-face {
 	font-family: sans-serif;
@@ -84,4 +101,22 @@ p,h1,h2,h3,h4,h5,h6,a,input {
 @font-face {
 	font-family: '微軟正黑體';
 	src: local("蘋果儷細宋");
+}
+
+@font-face {
+	font-family:'PingHei';
+	font-style:normal;
+	font-weight:200;
+	src:url("http://www.llqoli.com/fonts/PingHei-light.woff") format("woff");
+	*src:url('');
+	/* Copyright (c) 2000-2008, Changzhou SinoType Technology Co., Ltd.  All rights reserved. */
+}
+
+@font-face {
+	font-family:'MHei';
+	font-style:normal;
+	font-weight:200;
+	src:url("http://www.llqoli.com/fonts/MHeiHK-Light.woff") format("woff");
+	*src:url('');
+	/* (C) Copyright 1991-2008 China Type Design Ltd. Monotype Imaging Inc. All rights reserved. */
 }
